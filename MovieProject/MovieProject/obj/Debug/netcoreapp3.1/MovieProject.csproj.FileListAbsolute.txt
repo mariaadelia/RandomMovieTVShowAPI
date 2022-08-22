@@ -1,0 +1,14 @@
+C:\Users\mdcampos\Documents\Projects\MovieProject\MovieProject\MovieProject\obj\Debug\netcoreapp3.1\MovieProject.csproj.AssemblyReference.cache
+C:\Users\mdcampos\Documents\Projects\MovieProject\MovieProject\MovieProject\obj\Debug\netcoreapp3.1\MovieProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mdcampos\Documents\Projects\MovieProject\MovieProject\MovieProject\obj\Debug\netcoreapp3.1\MovieProject.AssemblyInfoInputs.cache
+C:\Users\mdcampos\Documents\Projects\MovieProject\MovieProject\MovieProject\obj\Debug\netcoreapp3.1\MovieProject.AssemblyInfo.cs
+C:\Users\mdcampos\Documents\Projects\MovieProject\MovieProject\MovieProject\obj\Debug\netcoreapp3.1\MovieProject.csproj.CoreCompileInputs.cache
+C:\Users\mdcampos\Documents\Projects\MovieProject\MovieProject\MovieProject\bin\Debug\netcoreapp3.1\MovieProject.exe
+C:\Users\mdcampos\Documents\Projects\MovieProject\MovieProject\MovieProject\bin\Debug\netcoreapp3.1\MovieProject.deps.json
+C:\Users\mdcampos\Documents\Projects\MovieProject\MovieProject\MovieProject\bin\Debug\netcoreapp3.1\MovieProject.runtimeconfig.json
+C:\Users\mdcampos\Documents\Projects\MovieProject\MovieProject\MovieProject\bin\Debug\netcoreapp3.1\MovieProject.runtimeconfig.dev.json
+C:\Users\mdcampos\Documents\Projects\MovieProject\MovieProject\MovieProject\bin\Debug\netcoreapp3.1\MovieProject.dll
+C:\Users\mdcampos\Documents\Projects\MovieProject\MovieProject\MovieProject\bin\Debug\netcoreapp3.1\MovieProject.pdb
+C:\Users\mdcampos\Documents\Projects\MovieProject\MovieProject\MovieProject\obj\Debug\netcoreapp3.1\MovieProject.dll
+C:\Users\mdcampos\Documents\Projects\MovieProject\MovieProject\MovieProject\obj\Debug\netcoreapp3.1\MovieProject.pdb
+C:\Users\mdcampos\Documents\Projects\MovieProject\MovieProject\MovieProject\obj\Debug\netcoreapp3.1\MovieProject.genruntimeconfig.cache
