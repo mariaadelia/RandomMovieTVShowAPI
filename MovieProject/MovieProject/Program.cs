@@ -1,40 +1,35 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
+using GroupDocs.Conversion;
+using GroupDocs.Conversion.FileTypes;
+using GroupDocs.Conversion.Options.Convert;
+using GroupDocs.Conversion.Options.Load;
 
-namespace MovieProject
+namespace GenerateJsonDataSet
 {
     class Program
     {
         static void Main(string[] args)
         {
 
-            //Transformar isso aqui em uma API que possa ler essas informações (Transformar em um JSON) e transformar em dados de um banco de dados (mock) e aí fazer a parte de um tipo/número randomico
-            //  com a sugestão do filme/serie (ver se a pessoa que filme ou série e depois fazer essa parte)
-
-            string csvFile = "C:/Users/mdcampos/Documents/Projects/MovieProject/dataset/movies_metadata.csv";
-
-            //To read the CSV FIle
-            StreamReader reader = new StreamReader(File.OpenRead(csvFile));
-
-            List<String> moviesList = new List<String>();
-            
-            while (!reader.EndOfStream)
+            // Converter arquivo CSV para o formato JSON em C #
+            var loadOptions = new CsvLoadOptions
             {
-                var lines = reader.ReadLine();
-                var values = lines.Split(',');
+                Separator = ','
+            };
 
-                foreach (var item in values)
+            using (Converter converter = new Converter(@"/Users/mariaadelia/Desktop/Programação/ProjectsCSharp/DataSetMovieProject/movies_metadata.csv",
+                    () => loadOptions))
+            {
+                DataConvertOptions options = new DataConvertOptions
                 {
-                    moviesList.Add(item);
-                }
-            }         
+                    Format = DataFileType.Json
+                };
+                converter.Convert(@"/Users/mariaadelia/Desktop/Programação/ProjectsCSharp/MovieProject/RandomMovieTVShowAPI/MovieProject/Database/movies.json", options);
+            }
 
-            Console.WriteLine(moviesList[1]);
-
-
-
-            Console.ReadLine();
         }
     }
+
 }

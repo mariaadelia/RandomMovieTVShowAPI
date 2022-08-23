@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.32126.315
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieProject", "MovieProject\MovieProject.csproj", "{40F934A8-0EED-4655-A69D-4E56E8AD3DBC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenerateJsonDataSet", "MovieProject\GenerateJsonDataSet.csproj", "{40F934A8-0EED-4655-A69D-4E56E8AD3DBC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
